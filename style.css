@@ -12,10 +12,10 @@ body {
     border-radius: 20px;
     text-align: center;
     background-color: whitesmoke;
-    box-shadow: -1em 0 .4em rgb(70, 70, 68);
+    box-shadow: -1em 0 .4em #464644;
 }
 h1 {
-    background-color: brown;
+    background-color: #93d5f3;
     padding: 2px 20px;
     margin-top: 0;
     border-top-left-radius: 20px;
@@ -23,18 +23,22 @@ h1 {
     color: #ffffff;
     text-align: center;
 }
-input {
-    padding: 4px 10px;
+.input {
+    width: 200px;
+    padding: 6px;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    text-align: center;
 }
-#service {
-    padding: 10px 25px;
-}
+
 #calculate {
-    background-color: brown;
+    background-color: #5499da;
     color: #ffffff;
     margin: 10px;
     padding: 20px;
     cursor: pointer;
+    border: none;
+    border-radius: 5px;
 }
 #totalTip {
     font-size: 30px;
