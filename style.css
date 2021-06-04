@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #dfe5e8;
+}
+.wrapper {
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    text-align: center;
+    background-color: whitesmoke;
+    box-shadow: -1em 0 .4em rgb(70, 70, 68);
+}
+h1 {
+    background-color: brown;
+    padding: 2px 20px;
+    margin-top: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+input {
+    padding: 4px 10px;
+}
+#service {
+    padding: 10px 25px;
+}
+#calculate {
+    background-color: brown;
+    color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+#totalTip {
+    font-size: 30px;
+}
